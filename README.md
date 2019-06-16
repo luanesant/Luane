@@ -1,2 +1,1 @@
-# 
-https://lusantosbjj1.github.io/Luane/
+# https://lusantosbjj1.github.io/Luane/
