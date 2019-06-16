@@ -1,0 +1,164 @@
+		*{
+				margin: 0 auto;
+				font-family: Times;
+
+		}
+/*Estilo das Tags*/
+		
+		header{
+		background-image: linear-gradient(black,grey);
+		float: left;
+		  width: 100%;
+		  height: 400px; 
+		  
+
+		}
+		h2{
+				margin-left: 1em;
+		}
+		h4{
+				margin-left:  2em;
+
+		}
+ 
+/*Estilo dos ID's */
+		
+		#menu ul li{
+			display: inline-table;
+			padding: 15px 9px;
+			cursor: pointer;
+
+			}
+		#menu ul li:hover{
+			background-color: #c3c3c3;
+			border-radius: 15px;
+		}
+
+		#menu ul li a{
+			width:100%; 
+			text-decoration: none;
+			color: white;
+		}
+/*Estilo das Class*/
+		.position{
+			float: right;
+		}
+		.ctt{
+		
+			background-color: grey;
+
+		}
+		.social{
+			width: 20px;
+			height: 20px;
+			background-color: #0e0e0e;
+			border-radius: 50%;
+		}
+
+		.our-team{
+			float: left;
+			width: 195px;
+			height: 220px; 
+			text-align: center;
+			overflow: hidden;
+			position: ;
+			display: inline-block;
+			margin-left: 50%;
+			margin-top: 50px;
+
+			
+		}	
+		.our-team2{
+			float: left;
+			width: 195px;
+			height: 210px; 
+			text-align: center;
+			
+			position: ;
+			display: inline-block;
+			
+
+			
+		}	
+
+		.our-team2 .pic{
+			display: inline-block;
+			width: 180px;
+			height: 180px;
+			border-radius: 50%;	
+		}	
+		.our-team .pic{
+			display: inline-block;
+			width: 180px;
+			height: 180px;
+			border-radius: 50%;	
+		}
+		.our-team .pic:before{
+			width: 100%;
+			position: absolute;		
+			transform: scale(3);
+			transition: all 0.3s linear 0s;
+		}
+		.our-team2 .pic:before{
+			width: 100%;
+			position: absolute;		
+			transform: scale(3);
+			transition: all 0.3s linear 0s;
+		}
+		.our-team:hover .pic:before{
+			height: 100%;
+		}
+		.our-team2:hover .pic:before{
+			height: 100%;
+		}
+		.our-team .pic:after{
+			
+			
+			background: #ee4266;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: -1;
+			
+		}
+		.our-team .pic img{
+			width: 100%;
+			height: auto;
+			border-radius: 50%;
+			transform: scale(1);
+			transition: all 0.9s ease 0s;				
+		}
+		
+		.our-team:hover .pic img{
+			box-shadow: 0 0 0 14px #f7f5ec;
+			transform: scale(0.7);
+		}
+.our-team .team-content{
+			margin-bottom: 30px;
+		}
+
+.our-team2 .pic:after{
+			
+			
+			background: #ee4266;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: -1;
+			
+		}
+		.our-team2 .pic img{
+			width: 100%;
+			height: auto;
+			border-radius: 50%;
+			transform: scale(1);
+			transition: all 0.9s ease 0s;				
+		}
+		
+		.our-team2:hover .pic img{
+			box-shadow: 0 0 0 14px #f7f5ec;
+			transform: scale(0.7);
+		}
+.our-team2 .team-content{
+			margin-bottom: 30px;
+		}
